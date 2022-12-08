@@ -1,0 +1,117 @@
+preprocessing:
+  
+  change_type_columns:
+    floorQuantity: object
+    floor: object
+
+  map_bins_columns:
+    surfaceArea: [60, 100]
+    
+  drop_columns: ['Unnamed: 0', 'id', 'reference', 'description', 'title',
+                 'publicationDate', 'modificationDate', 'isBienIciExclusive',
+                 'energyValue', 'greenhouseGazValue', 'energyClassification',
+                 'greenhouseGazClassification','isExclusiveSaleMandate',
+                 'feesChargedTo', 'photos', 'adCreatedByPro', 'addressKnown',
+                 'displayDistrictName', 'pricePerSquareMeter',
+                 'postalCodeForSearchFilters', 'descriptionTextLength',
+                 'transactionType', 'adTypeFR','with3dModel',
+                 'endOfPromotedAsExclusive', 'nothingBehindForm',
+                 'highlightMailContact', 'displayInsuranceEstimation',
+                 'phoneDisplays', 'blurInfo.type', 'blurInfo.radius',
+                 'blurInfo.bbox', 'blurInfo.position.lat',
+                 'blurInfo.position.lon', 'blurInfo.centroid.lat',
+                 'blurInfo.centroid.lon', 'chargingStations.providers',
+                 'district.id_polygone', 'district.name', 'district.id_type',
+                 'district.cp',  'district.code_insee', 'district.insee_code',
+                 'district.postal_code', 'district.type_id',
+                 'status.onTheMarket', 'status.closedByUser',
+                 'status.autoImported', 'status.isLeading',
+                 'status.highlighted', 'status.is3dHighlighted',
+                 'userRelativeData.importAccountId',
+                 'userRelativeData.accountIds',
+                 'userRelativeData.searchAccountIds',
+                 'userRelativeData.isFavorite', 'userRelativeData.isOwner',
+                 'userRelativeData.isNetwork', 'userRelativeData.isAdmin',
+                 'userRelativeData.isAdModifier','userRelativeData.canEditAd',
+                 'userRelativeData.canSeeExactPosition',
+                 'userRelativeData.canSeeAddress',
+                 'userRelativeData.canSeeStats',
+                 'userRelativeData.canModifyAd',
+                 'userRelativeData.canModifyAdBlur',
+                 'userRelativeData.canChangeOnTheMarket',
+                 'userRelativeData.canSeeContacts', "district.id",
+                 'userRelativeData.canSeeRealDates', 'postalCode', "adType",
+                 "propertyType", "accountType", "priceHasDecreased",
+                 'userRelativeData.canSeePublicationCertificateHtml',
+                 'userRelativeData.canSeePublicationCertificatePdf',
+                 'heating', 'hasElevator', 'newProperty']
+  
+  empty_columns: ['virtualTours', 'photoWatermarkAlias', 'hasCellar',
+                  'showerRoomsQuantity', 'toiletQuantity',
+                  'energyPerformanceDiagnosticDate', 'minEnergyConsumption',
+                  'maxEnergyConsumption','agencyFeePercentage', 'newOrOld',
+                  'priceWithoutFees','useJuly2021EnergyPerformanceDiagnostic',
+                  'with360', 'relevanceBonus', 'opticalFiberStatus',
+                  'customerId', 'hasIntercom', 'hasBalcony', 'hasDoorCode',
+                  'hasCaretaker', 'workToDo', 'cellarsOrUndergroundsQuantity',
+                  'energySimulationReferenceDate', 'exposition',
+                  'userRelativeData.lastViewDate', 'bathroomsQuantity',
+                  'needVirtualTour', 'needHomeStaging', 'thresholdDate',
+                  'blurInfo.origin', 'agencyFeeUrl', 'hasTerrace', 'hasGarden',
+                  'annualCondominiumFees', 'condominiumPartsQuantity',
+                  'isDuplex', 'availableDate', 'isCondominiumInProcedure',
+                  'averageAnnualEnergyConsumption', 'isStudio','hasFirePlace',
+                  'hasAlarm', 'parkingPlacesQuantity', 'terraceSurfaceArea',
+                  'terracesQuantity', 'hasPool', 'lifeAnnuityAgeOfMan',
+                  'lifeAnnuityAgeOfWoman', 'balconySurfaceArea',
+                  'balconyQuantity', 'yearOfConstruction',
+                  'hasAirConditioning', 'isDisabledPeopleFriendly', 'isCalm',
+                  'condominiumDetailedProcedure', 'hasSeparateToilet',
+                  'lifeAnnuityMonthlyAllowance', 'hasTVCable', 'hasParking',
+                  'landSurfaceArea', 'isRecent','hasVideophone','pitch',
+                  'isEligibleForPinelLaw','hasLotWith360','deliveryDate',
+                  'reducedVat','pdfBehindForm','relatedAdsIds',
+                  'firePlacesQuantity', 'hasConservatory','POSCity',
+                  'officeAddress','isRefurbished','enclosedParkingQuantity',
+                  'hasParquet','hasGarage','indoorParkingQuantity',
+                  'is3dHighlighted','isInStudentResidence','pdf',
+                  'POSPostalCode', 'hasEnclosedParking','hasUnobstructedView']
+
+  numerical_columns_train: ['surfaceArea', 'price', 'roomsQuantity']
+  numerical_columns_evaluate: ['surfaceArea', 'roomsQuantity']
+  train_path: '../data/raw/bienici_data(1-105).csv'
+  train_eda_path: '../data/processed/train_eda.csv'
+  unique_values_path: ../data/processed/unique_values.json
+  train_path_proc: ../data/processed/train.csv
+  test_path_proc: ../data/processed/test.csv
+  train__path_proc: ../data/processed/train_.csv
+  val_path_proc: ../data/processed/val.csv
+  test_size: 0.20
+  validation_size: 0.16
+  target_column: price
+  fillna_with_mode_columns: ['isInCondominium','floorQuantity']
+  column_to_change: ['bedroomsQuantity', 'floor']
+  column_to_groupby: ['roomsQuantity', 'floorQuantity']
+  column_with_unreal_values: floor
+  random_state: 10
+
+train:
+  n_trials: 120
+  n_folds: 3
+  random_state: 10
+  target_column: price
+  model_path: ../models/model_lgb.joblib
+  study_path: ../models/study.joblib
+  metrics_path: ../report/metrics.json
+  params_path: ../report/best_params.json
+
+evaluate:
+  predict_path: ../data/check/test.csv
+
+endpoints:
+  train: 'http://fastapi:8000/train'
+  prediction_input: 'http://fastapi:8000/predict_input'
+  prediction_from_file: 'http://fastapi:8000/predict'
+  #train: 'http://localhost:8000/train'
+  #prediction_input: 'http://localhost:8000/predict_input'
+  #prediction_from_file: 'http://localhost:8000/predict'

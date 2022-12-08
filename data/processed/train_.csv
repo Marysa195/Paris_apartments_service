@@ -1,0 +1,318 @@
+city,surfaceArea,roomsQuantity,bedroomsQuantity,floorQuantity,floor,isInCondominium,price,district_libelle,surfaceArea_bins
+Paris 5e,44.0,2.0,1.0,5.0,2.0,True,595000.0,Sorbonne - Quartier Latin,small
+Paris 11e,66.0,3.0,2.0,3.0,2.0,True,680000.0,Léon-Blum - Folie-Regnault,medium
+Paris 17e,8.61,1.0,0.0,6.0,5.0,True,103000.0,Epinettes - Bessières,small
+Paris 7e,35.0,2.0,1.0,6.0,6.0,True,500000.0,Champ de Mars,small
+Paris 18e,25.0,1.0,0.0,6.0,0.0,True,259500.0,Jules Joffrin,small
+Paris 13e,84.82,3.0,2.0,6.0,0.0,True,939000.0,Salpétrière - Austerlitz,medium
+Paris 17e,30.0,2.0,1.0,5.0,0.0,True,359000.0,Courcelles - Wagram,small
+Paris 20e,62.0,3.0,2.0,8.0,5.0,True,650000.0,Belleville,medium
+Paris 20e,232.0,6.0,3.0,2.0,0.0,True,1460000.0,Père Lachaise - Réunion,large
+Paris 14e,112.0,5.0,5.0,5.0,3.0,True,1850000.0,Pernety,large
+Paris 20e,76.0,4.0,1.0,6.0,0.0,True,720000.0,Belleville,medium
+Paris 8e,138.0,4.0,3.0,6.0,1.0,True,1500000.0,Elysée - Madeleine,large
+Paris 9e,38.0,1.0,1.0,6.0,0.0,True,450000.0,Lorette - Martyrs,small
+Paris 7e,16.0,1.0,1.0,6.0,6.0,True,199000.0,Saint-Thomas d'Aquin - Bac - Musée d'Orsay,small
+Paris 20e,73.0,3.0,2.0,8.0,3.0,True,725000.0,Plaine - Lagny,medium
+Paris 18e,35.0,2.0,1.0,6.0,6.0,True,360000.0,Grandes Carrières - Clichy,small
+Paris 16e,95.0,3.0,1.0,9.0,7.0,False,807248.0,Auteuil-Nord - Jasmin - Mirabeau,medium
+Paris 17e,62.0,3.0,2.0,6.0,3.0,True,775000.0,Batignolles - Cardinet,medium
+Paris 12e,86.0,4.0,3.0,9.0,7.0,False,865000.0,Vallée de Fecamp,medium
+Paris 9e,61.6,3.0,2.0,5.0,4.0,True,699000.0,Lorette - Martyrs,medium
+Paris 19e,71.0,3.0,2.0,13.0,1.0,True,875000.0,Bassin de la Villette,medium
+Paris 5e,42.0,2.0,1.0,4.0,2.0,True,700000.0,Val de Grâce,small
+Paris 11e,77.0,3.0,2.0,5.0,5.0,True,765000.0,Belleville - Saint-Maur,medium
+Paris 18e,55.0,3.0,1.0,6.0,1.0,True,526000.0,Barbès - Château Rouge,small
+Paris 18e,60.0,2.0,1.0,3.0,0.0,True,555000.0,La Chapelle - Marx Dormoy,small
+Paris 19e,54.65,3.0,2.0,7.0,1.0,True,530000.0,Buttes Chaumont - Laumière - Manin,small
+Paris 15e,91.0,3.0,2.0,9.0,1.0,True,859000.0,Pasteur - Montparnasse,medium
+Paris 18e,66.0,4.0,2.0,6.0,1.0,True,575000.0,Porte de Clignancourt - Porte Montmartre - Moskowa,medium
+Paris 19e,63.6,3.0,2.0,6.0,5.0,False,618800.0,La Villette - Porte de Pantin,medium
+Paris 11e,29.0,3.0,2.0,6.0,4.0,True,400000.0,République - Saint-Ambroise,small
+Paris 7e,205.02,7.0,5.0,7.0,0.0,True,3100000.0,Champ de Mars,large
+Paris 20e,76.0,3.0,3.0,9.0,4.0,True,459500.0,Télégraphe - Pelleport - Saint-Fargeau,medium
+Paris 17e,170.0,5.0,3.0,7.0,4.0,True,2420000.0,Ternes - Maillot,large
+Paris 15e,32.0,2.0,1.0,6.0,0.0,True,365000.0,Cambronne - Garibaldi,small
+Paris 7e,49.0,4.0,1.0,6.0,0.0,False,1018500.0,Invalides,small
+Paris 18e,101.0,5.0,3.0,10.0,7.0,True,1125000.0,Grandes Carrières - Clichy,large
+Paris 3e,21.0,1.0,0.0,5.0,4.0,True,298000.0,Enfants Rouges - Bretagne,small
+Paris 15e,60.0,3.0,2.0,7.0,7.0,True,695000.0,Georges Brassens,small
+Paris 20e,76.0,4.0,2.0,7.0,2.0,True,499000.0,Saint-Blaise,medium
+Paris 19e,68.0,3.0,1.0,4.0,0.0,True,520000.0,Mouzaia,medium
+Paris 11e,40.37,2.0,1.0,6.0,1.0,False,416000.0,Nation - Alexandre Dumas,small
+Paris 14e,39.0,1.0,0.0,8.0,2.0,True,350000.0,Jean Moulin - Porte d'Orléans,small
+Paris 15e,90.77,5.0,3.0,6.0,1.0,True,660000.0,Georges Brassens,medium
+Paris 12e,53.0,3.0,1.0,6.0,4.0,False,196300.0,Jardin de Reuilly,small
+Paris 17e,21.0,1.0,0.0,6.0,6.0,True,315000.0,Pereire,small
+Paris 19e,98.0,5.0,3.0,6.0,1.0,True,935000.0,Secrétan - Jaurès,medium
+Paris 15e,35.0,1.0,0.0,7.0,3.0,True,378000.0,Vaugirard - Parc des Expositions,small
+Paris 9e,143.06,6.0,4.0,6.0,4.0,True,1890000.0,Opéra,large
+Paris 15e,22.0,1.0,0.0,9.0,2.0,True,280000.0,Emeriau - Zola,small
+Paris 18e,31.0,2.0,1.0,6.0,1.0,True,365000.0,Jules Joffrin,small
+Paris 19e,65.0,3.0,2.0,4.0,3.0,True,520000.0,Porte de la Villette,medium
+Paris 15e,40.0,2.0,1.0,6.0,4.0,True,475000.0,Vaugirard - Parc des Expositions,small
+Paris 16e,108.0,4.0,3.0,8.0,3.0,True,1190000.0,Porte de Saint-Cloud - Auteuil-Sud,large
+Paris 18e,25.0,1.0,0.0,9.0,2.0,True,235000.0,Barbès - Château Rouge,small
+Paris 18e,78.0,3.0,2.0,3.0,2.0,True,700000.0,La Chapelle - Marx Dormoy,medium
+Paris 17e,70.0,3.0,2.0,3.0,1.0,True,790000.0,Courcelles - Wagram,medium
+Paris 17e,49.0,2.0,1.0,6.0,4.0,True,610000.0,Batignolles - Cardinet,small
+Paris 17e,217.0,4.0,3.0,6.0,0.0,True,4090000.0,Ternes - Maillot,large
+Paris 16e,274.0,7.0,5.0,5.0,2.0,True,6909000.0,Muette-Nord - Trocadéro,large
+Paris 14e,15.0,1.0,0.0,6.0,1.0,True,160500.0,Mouton - Duvernet,small
+Paris 13e,20.0,1.0,1.0,3.0,3.0,True,239000.0,Butte-aux-Cailles,small
+Paris 15e,93.0,4.0,2.0,6.0,4.0,True,960000.0,Emeriau - Zola,medium
+Paris 18e,39.0,2.0,1.0,6.0,0.0,True,355000.0,Jules Joffrin,small
+Paris 19e,65.1,3.0,2.0,6.0,4.0,False,610000.0,La Villette - Porte de Pantin,medium
+Paris 12e,38.8,3.0,2.0,5.0,2.0,True,445200.0,Nation - Picpus,small
+Paris 16e,8.0,1.0,0.0,7.0,7.0,True,73200.0,Muette-Nord - Trocadéro,small
+Paris 11e,13.0,1.0,0.0,6.0,1.0,True,199500.0,Bastille - Popincourt,small
+Paris 15e,64.52,3.0,2.0,6.0,0.0,True,610000.0,Vaugirard - Parc des Expositions,medium
+Paris 17e,211.5,8.0,5.0,7.0,3.0,True,2730000.0,Courcelles - Wagram,large
+Paris 18e,63.0,3.0,2.0,6.0,5.0,True,550000.0,Porte de Clignancourt - Porte Montmartre - Moskowa,medium
+Paris 19e,90.0,4.0,2.0,9.0,7.0,True,1290000.0,La Villette - Porte de Pantin,medium
+Paris 15e,122.77,5.0,3.0,6.0,3.0,True,1570000.0,Cambronne - Garibaldi,large
+Paris 17e,35.0,2.0,1.0,6.0,0.0,True,310000.0,Pereire,small
+Paris 14e,89.29,5.0,4.0,5.0,0.0,True,1055000.0,Didot - Porte de Vanves,medium
+Paris 7e,57.08,2.0,1.0,12.0,12.0,True,950000.0,Dupleix - Motte Picquet,small
+Paris 7e,35.24,2.0,1.0,5.0,5.0,True,495000.0,Champ de Mars,small
+Paris 17e,93.0,4.0,3.0,6.0,1.0,True,1080000.0,Champerret - Berthier,medium
+Paris 18e,48.25,3.0,2.0,5.0,2.0,True,458000.0,Barbès - Château Rouge,small
+Paris 17e,100.0,4.0,2.0,6.0,4.0,True,1040000.0,Ternes - Maillot,medium
+Paris 13e,39.5,2.0,1.0,6.0,1.0,True,449000.0,Patay - Masséna,small
+Paris 16e,21.47,2.0,1.0,6.0,6.0,True,255000.0,Dauphine,small
+Paris 7e,122.77,5.0,3.0,6.0,3.0,True,1570000.0,Saint-Thomas d'Aquin - Bac - Musée d'Orsay,large
+Paris 11e,72.0,3.0,2.0,6.0,4.0,True,858000.0,République - Saint-Ambroise,medium
+Paris 12e,63.0,4.0,3.0,5.0,3.0,True,570000.0,Vallée de Fecamp,medium
+Paris 17e,73.0,4.0,3.0,6.0,5.0,True,823000.0,Ternes - Maillot,medium
+Paris 18e,44.0,2.0,1.0,6.0,1.0,False,398000.0,Barbès - Château Rouge,small
+Paris 20e,25.61,1.0,0.0,9.0,6.0,True,198000.0,Télégraphe - Pelleport - Saint-Fargeau,small
+Paris 10e,41.0,2.0,1.0,5.0,0.0,True,399000.0,Saint-Vincent de Paul - Lariboisière,small
+Paris 4e,18.19,1.0,0.0,6.0,4.0,True,265000.0,Saint-Gervais,small
+Paris 9e,56.0,3.0,2.0,5.0,2.0,True,750000.0,Grands Boulevards,small
+Paris 19e,79.0,3.0,2.0,6.0,2.0,True,900000.0,Secrétan - Jaurès,medium
+Paris 12e,93.1,4.0,3.0,6.0,1.0,True,945000.0,Bel-Air - Sud,medium
+Paris 17e,86.0,5.0,3.0,6.0,5.0,True,1050000.0,Ternes - Maillot,medium
+Paris 19e,62.0,3.0,2.0,9.0,6.0,True,550000.0,Porte de la Villette,medium
+Paris 11e,114.34,5.0,3.0,7.0,3.0,True,1270000.0,Nation - Alexandre Dumas,large
+Paris 20e,51.0,3.0,1.0,6.0,5.0,True,525000.0,Gambetta,small
+Paris 16e,150.66,7.0,4.0,9.0,8.0,True,2149000.0,Porte de Saint-Cloud - Auteuil-Sud,large
+Paris 11e,108.0,3.0,2.0,4.0,1.0,True,1320000.0,Bastille - Popincourt,large
+Paris 16e,51.5,3.0,1.0,6.0,4.0,True,550000.0,Porte de Saint-Cloud - Auteuil-Sud,small
+Paris 9e,75.0,3.0,2.0,6.0,3.0,True,990000.0,Saint-Vincent de Paul - Lariboisière,medium
+Paris 13e,22.0,1.0,0.0,6.0,24.0,False,262080.0,Olympiades - Choisy,small
+Paris 9e,186.7,6.0,3.0,6.0,3.0,True,2295000.0,Clichy - Trinité,large
+Paris 19e,90.0,4.0,3.0,5.0,1.0,True,670000.0,Flandre - Aubervilliers,medium
+Paris 17e,63.0,3.0,2.0,5.0,2.0,True,799000.0,Batignolles - Cardinet,medium
+Paris 15e,41.0,2.0,1.0,6.0,5.0,True,499000.0,Saint-Lambert - Convention,small
+Paris 11e,52.18,2.0,1.0,5.0,1.0,True,689000.0,Bastille - Popincourt,small
+Paris 11e,110.0,5.0,3.0,9.0,9.0,True,1730000.0,Léon-Blum - Folie-Regnault,large
+Paris 10e,74.0,3.0,2.0,6.0,1.0,True,805000.0,Canal Saint-Martin - Jemmapes,medium
+Paris 14e,33.0,2.0,1.0,5.0,5.0,True,400000.0,Pernety,small
+Paris 18e,101.0,5.0,3.0,10.0,7.0,True,1125000.0,Grandes Carrières - Clichy,large
+Paris 13e,133.0,5.0,4.0,6.0,1.0,False,1150000.0,Croulebarbe,large
+Paris 16e,66.0,2.0,1.0,2.0,1.0,True,690000.0,Passy - Maison de la Radio - Muette-Sud,medium
+Paris 9e,49.47,3.0,2.0,6.0,5.0,True,755000.0,Clichy - Trinité,small
+Paris 17e,79.0,3.0,2.0,6.0,1.0,True,832000.0,La Fourche - Guy Moquet,medium
+Paris 15e,67.0,3.0,2.0,9.0,5.0,True,725000.0,Saint-Lambert - Convention,medium
+Paris 14e,67.0,3.0,2.0,3.0,3.0,True,875000.0,Montparnasse - Raspail,medium
+Paris 18e,76.0,4.0,2.0,4.0,4.0,False,930000.0,Montmartre - Sacré Coeur - Abbesses,medium
+Paris 19e,24.0,1.0,0.0,9.0,7.0,True,181990.0,Porte de la Villette,small
+Paris 18e,37.0,2.0,1.0,6.0,1.0,True,340000.0,Jules Joffrin,small
+Paris 7e,57.1,2.0,1.0,6.0,3.0,True,837000.0,Champ de Mars,small
+Paris 14e,72.0,3.0,2.0,16.0,5.0,True,665000.0,Didot - Porte de Vanves,medium
+Paris 5e,16.0,1.0,1.0,5.0,5.0,True,212000.0,Jardin des Plantes,small
+Paris 15e,36.0,2.0,1.0,5.0,1.0,True,464000.0,Pasteur - Montparnasse,small
+Paris 15e,46.0,2.0,1.0,11.0,7.0,True,391800.0,Alleray - Procession,small
+Paris 16e,161.21,4.0,2.0,4.0,2.0,True,2350000.0,Muette-Nord - Trocadéro,large
+Paris 16e,57.0,2.0,1.0,8.0,6.0,True,650000.0,Passy - Maison de la Radio - Muette-Sud,small
+Paris 17e,25.0,1.0,0.0,3.0,2.0,True,267000.0,Epinettes - Bessières,small
+Paris 6e,117.0,4.0,3.0,9.0,3.0,True,2000000.0,Notre Dame des Champs,large
+Paris 18e,87.1,4.0,3.0,6.0,1.0,True,995000.0,Jules Joffrin,medium
+Paris 6e,27.0,2.0,1.0,4.0,2.0,True,470000.0,Odéon - Mabillon,small
+Paris 20e,88.7,4.0,3.0,6.0,1.0,True,675000.0,Plaine - Lagny,medium
+Paris 14e,94.0,5.0,3.0,7.0,0.0,True,850000.0,Jean Moulin - Porte d'Orléans,medium
+Paris 19e,16.0,1.0,0.0,17.0,17.0,True,180000.0,Flandre - Aubervilliers,small
+Paris 10e,47.58,2.0,1.0,5.0,2.0,True,490000.0,Goncourt - Canal Saint-Martin,small
+Paris 18e,61.0,3.0,2.0,6.0,1.0,True,429000.0,Porte de la Chapelle - Charles Hermite - Evangile,medium
+Paris 16e,47.0,2.0,1.0,6.0,3.0,True,525000.0,Porte de Saint-Cloud - Auteuil-Sud,small
+Paris 18e,23.0,2.0,1.0,7.0,0.0,True,215000.0,Montmartre - Sacré Coeur - Abbesses,small
+Paris 9e,142.0,6.0,4.0,6.0,3.0,True,1560000.0,Clichy - Trinité,large
+Paris 19e,85.58,4.0,3.0,9.0,4.0,True,550000.0,Flandre - Aubervilliers,medium
+Paris 11e,63.05,3.0,2.0,6.0,4.0,True,699000.0,République - Saint-Ambroise,medium
+Paris 10e,38.0,2.0,1.0,8.0,6.0,True,460000.0,Porte Saint-Martin - Paradis,small
+Paris 19e,36.0,2.0,1.0,6.0,1.0,True,299000.0,Flandre - Aubervilliers,small
+Paris 16e,176.0,5.0,4.0,6.0,0.0,False,1095000.0,Passy - Maison de la Radio - Muette-Sud,large
+Paris 4e,112.0,3.0,2.0,6.0,5.0,True,1890000.0,Saint-Gervais,large
+Paris 10e,192.0,8.0,6.0,3.0,1.0,True,1780000.0,Goncourt - Canal Saint-Martin,large
+Paris 2e,27.0,2.0,2.0,6.0,6.0,True,260000.0,Gaillon - Vivienne,small
+Paris 18e,51.32,3.0,2.0,6.0,1.0,True,495000.0,La Chapelle - Marx Dormoy,small
+Paris 13e,90.19,3.0,2.0,9.0,1.0,True,935000.0,Bièvre Sud - Tolbiac,medium
+Paris 18e,48.0,3.0,2.0,9.0,1.0,True,475000.0,Barbès - Château Rouge,small
+Paris 12e,55.0,3.0,2.0,6.0,2.0,True,559000.0,Nation - Picpus,small
+Paris 7e,100.0,5.0,3.0,8.0,2.0,True,1823000.0,Breteuil,medium
+Paris 18e,72.0,4.0,3.0,6.0,1.0,False,718900.0,Montmartre - Sacré Coeur - Abbesses,medium
+Paris 20e,299.0,5.0,4.0,3.0,1.0,True,1800000.0,Père Lachaise - Réunion,large
+Paris 17e,49.0,3.0,2.0,5.0,1.0,True,560000.0,La Fourche - Guy Moquet,small
+Paris 18e,89.5,5.0,3.0,10.0,3.0,True,928000.0,Grandes Carrières - Clichy,medium
+Paris 7e,121.5,5.0,3.0,6.0,1.0,True,1930000.0,Breteuil,large
+Paris 12e,63.0,3.0,2.0,8.0,5.0,True,649000.0,Jardin de Reuilly,medium
+Paris 13e,86.0,3.0,2.0,11.0,4.0,True,995000.0,Croulebarbe,medium
+Paris 16e,33.0,1.0,0.0,10.0,2.0,True,425000.0,Dauphine,small
+Paris 12e,40.0,3.0,2.0,5.0,0.0,True,339000.0,Bel-Air - Sud,small
+Paris 16e,45.0,2.0,1.0,7.0,1.0,True,575000.0,Dauphine,small
+Paris 20e,60.0,3.0,2.0,9.0,8.0,True,580000.0,Gambetta,small
+Paris 19e,50.0,2.0,1.0,11.0,8.0,False,545000.0,Porte de la Villette,small
+Paris 15e,70.0,3.0,2.0,8.0,4.0,True,639000.0,Alleray - Procession,medium
+Paris 19e,50.5,2.0,1.0,7.0,1.0,True,449000.0,Bassin de la Villette,small
+Paris 12e,19.0,1.0,0.0,6.0,0.0,True,205000.0,Bel-Air - Nord,small
+Paris 11e,103.0,5.0,3.0,6.0,6.0,True,1260000.0,République - Saint-Ambroise,large
+Paris 16e,100.0,4.0,3.0,7.0,0.0,True,998000.0,Porte de Saint-Cloud - Auteuil-Sud,medium
+Paris 17e,116.7,5.0,3.0,8.0,1.0,True,1450000.0,Ternes - Maillot,large
+Paris 10e,72.41,3.0,2.0,6.0,3.0,True,785000.0,Goncourt - Canal Saint-Martin,medium
+Paris 17e,46.42,2.0,1.0,7.0,7.0,True,475000.0,Ternes - Maillot,small
+Paris 6e,60.0,3.0,2.0,5.0,2.0,True,1085000.0,Saint-Michel - Monnaie,small
+Paris 11e,74.0,3.0,2.0,4.0,1.0,True,775000.0,République - Saint-Ambroise,medium
+Paris 20e,116.0,5.0,3.0,3.0,2.0,True,1200000.0,Père Lachaise - Réunion,large
+Paris 14e,82.0,4.0,2.0,7.0,1.0,True,812500.0,Pernety,medium
+Paris 4e,102.73,4.0,2.0,4.0,5.0,True,1638000.0,Les Iles,large
+Paris 20e,64.0,3.0,2.0,6.0,0.0,True,570000.0,Père Lachaise - Réunion,medium
+Paris 15e,43.0,3.0,1.0,5.0,4.0,True,476000.0,Saint-Lambert - Convention,small
+Paris 15e,90.0,4.0,3.0,11.0,3.0,True,875500.0,Emeriau - Zola,medium
+Paris 18e,39.0,3.0,2.0,6.0,2.0,True,385000.0,Grandes Carrières - Clichy,small
+Paris 4e,58.0,4.0,2.0,6.0,0.0,False,350000.0,Arsenal,small
+Paris 16e,68.31,3.0,1.0,5.0,2.0,True,855000.0,Chaillot,medium
+Paris 20e,73.0,4.0,3.0,5.0,2.0,True,728000.0,Saint-Blaise,medium
+Paris 13e,74.0,3.0,2.0,18.0,18.0,True,630000.0,Nationale - Deux Moulins,medium
+Paris 8e,108.5,4.0,2.0,6.0,5.0,True,1390000.0,Saint-Philippe du Roule,large
+Paris 5e,53.0,3.0,2.0,5.0,3.0,True,980000.0,Val de Grâce,small
+Paris 14e,28.0,1.0,0.0,6.0,0.0,True,330000.0,Montparnasse - Raspail,small
+Paris 17e,105.0,5.0,3.0,5.0,2.0,True,1140000.0,Ternes - Maillot,large
+Paris 14e,50.0,3.0,2.0,4.0,3.0,True,535000.0,Pernety,small
+Paris 15e,16.0,2.0,1.0,6.0,0.0,True,245000.0,Citroën - Boucicaut,small
+Paris 13e,300.0,12.0,10.0,6.0,0.0,True,1995000.0,Olympiades - Choisy,large
+Paris 17e,60.0,3.0,2.0,6.0,2.0,True,725000.0,Courcelles - Wagram,small
+Paris 18e,47.0,3.0,2.0,5.0,4.0,False,232035.0,Barbès - Château Rouge,small
+Paris 11e,27.0,2.0,1.0,4.0,2.0,True,340000.0,Belleville - Saint-Maur,small
+Paris 8e,53.0,2.0,1.0,5.0,2.0,True,872000.0,Hoche Friedland,small
+Paris 14e,83.0,3.0,2.0,5.0,2.0,True,970000.0,Montsouris - Dareau,medium
+Paris 5e,95.0,3.0,2.0,6.0,4.0,True,1840000.0,Châtelet - Les Halles,medium
+Paris 13e,45.0,2.0,1.0,8.0,6.0,True,599000.0,Bibliothèque - Dunois - Jeanne d'Arc,small
+Paris 14e,116.0,5.0,4.0,6.0,6.0,True,1322000.0,Jean Moulin - Porte d'Orléans,large
+Paris 19e,35.0,1.0,0.0,6.0,8.0,True,364500.0,La Villette - Porte de Pantin,small
+Paris 17e,137.0,5.0,3.0,6.0,3.0,True,1890000.0,Courcelles - Wagram,large
+Paris 14e,35.0,2.0,1.0,6.0,3.0,True,429000.0,Jean Moulin - Porte d'Orléans,small
+Paris 19e,88.0,4.0,2.0,10.0,9.0,True,600000.0,Flandre - Aubervilliers,medium
+Paris 18e,22.0,2.0,1.0,6.0,3.0,True,245000.0,Simplon - Poissonniers,small
+Paris 2e,20.0,1.0,0.0,6.0,1.0,True,264000.0,Sentier,small
+Paris 13e,77.0,4.0,1.0,1.0,0.0,True,735000.0,Butte-aux-Cailles,medium
+Paris 13e,94.31,3.0,2.0,5.0,3.0,True,943000.0,Croulebarbe,medium
+Paris 4e,37.0,1.0,0.0,4.0,4.0,True,350000.0,Saint-Gervais,small
+Paris 15e,49.0,3.0,2.0,6.0,1.0,False,550000.0,Violet - Commerce,small
+Paris 20e,45.0,2.0,1.0,6.0,6.0,True,380000.0,Plaine - Lagny,small
+Paris 14e,67.0,3.0,2.0,5.0,3.0,True,730000.0,Didot - Porte de Vanves,medium
+Paris 7e,30.0,2.0,1.0,7.0,1.0,True,435000.0,Champ de Mars,small
+Paris 19e,83.0,4.0,2.0,10.0,2.0,True,499000.0,Flandre - Aubervilliers,medium
+Paris 15e,32.0,1.0,0.0,6.0,0.0,True,373635.0,Violet - Commerce,small
+Paris 12e,120.67,6.0,3.0,20.0,19.0,True,1525000.0,Jardin de Reuilly,large
+Paris 15e,77.0,3.0,2.0,6.0,13.0,True,735000.0,Dupleix - Motte Picquet,medium
+Paris 13e,78.53,4.0,3.0,6.0,1.0,True,727000.0,Nationale - Deux Moulins,medium
+Paris 15e,24.0,1.0,0.0,6.0,1.0,True,265000.0,Vaugirard - Parc des Expositions,small
+Paris 15e,106.99,4.0,2.0,12.0,1.0,True,1550000.0,Dupleix - Motte Picquet,large
+Paris 10e,85.0,5.0,3.0,7.0,3.0,True,880000.0,Louis Blanc - Aqueduc,medium
+Paris 1er,87.0,4.0,2.0,6.0,7.0,True,2500000.0,Vendôme,medium
+Paris 3e,65.68,3.0,2.0,4.0,3.0,True,785000.0,Sainte-Avoye,medium
+Paris 11e,106.0,4.0,1.0,9.0,8.0,False,367368.0,Léon-Blum - Folie-Regnault,large
+Paris 1er,233.5,6.0,4.0,6.0,1.0,True,2490000.0,Châtelet - Les Halles,large
+Paris 18e,206.0,6.0,4.0,9.0,0.0,True,1400000.0,Jules Joffrin,large
+Paris 20e,47.0,2.0,1.0,6.0,2.0,True,410000.0,Télégraphe - Pelleport - Saint-Fargeau,small
+Paris 13e,97.4,6.0,5.0,6.0,1.0,True,1076400.0,Bièvre Sud - Tolbiac,medium
+Paris 15e,151.0,5.0,3.0,6.0,1.0,True,1698000.0,Saint-Lambert - Convention,large
+Paris 5e,61.0,3.0,1.0,6.0,1.0,True,680000.0,Monge - Jussieu,medium
+Paris 19e,33.0,3.0,1.0,6.0,3.0,True,350000.0,Secrétan - Jaurès,small
+Paris 20e,36.0,2.0,1.0,8.0,2.0,True,330000.0,Télégraphe - Pelleport - Saint-Fargeau,small
+Paris 17e,44.42,3.0,1.0,6.0,5.0,True,540000.0,Courcelles - Wagram,small
+Paris 17e,38.12,2.0,1.0,6.0,6.0,True,350000.0,Batignolles - Cardinet,small
+Paris 20e,58.56,3.0,2.0,7.0,3.0,True,629000.0,Gambetta,small
+Paris 20e,28.0,2.0,1.0,6.0,1.0,True,285000.0,Télégraphe - Pelleport - Saint-Fargeau,small
+Paris 11e,47.0,3.0,2.0,6.0,4.0,False,540000.0,Belleville - Saint-Maur,small
+Paris 19e,81.0,4.0,2.0,6.0,3.0,True,885000.0,Secrétan - Jaurès,medium
+Paris 5e,45.0,3.0,2.0,6.0,0.0,True,445000.0,Val de Grâce,small
+Paris 13e,54.0,3.0,2.0,2.0,0.0,True,515000.0,Patay - Masséna,small
+Paris 19e,56.0,3.0,2.0,6.0,2.0,True,560496.0,Bassin de la Villette,small
+Paris 12e,65.0,3.0,2.0,7.0,4.0,True,645000.0,Bel-Air - Sud,medium
+Paris 9e,47.0,2.0,1.0,4.0,3.0,False,525000.0,Trudaine - Rochechouart,small
+Paris 19e,11.0,1.0,0.0,6.0,1.0,True,134000.0,Buttes Chaumont - Laumière - Manin,small
+Paris 14e,92.65,4.0,3.0,7.0,1.0,True,999000.0,Jean Moulin - Porte d'Orléans,medium
+Paris 17e,8.0,1.0,1.0,4.0,4.0,True,85000.0,Ternes - Maillot,small
+Paris 16e,78.0,3.0,2.0,6.0,0.0,True,945000.0,Dauphine,medium
+Paris 14e,86.0,4.0,2.0,6.0,6.0,True,1012300.0,Montparnasse - Raspail,medium
+Paris 13e,47.0,2.0,1.0,7.0,4.0,False,514800.0,Butte-aux-Cailles,small
+Paris 18e,59.0,3.0,1.0,5.0,3.0,True,625000.0,Barbès - Château Rouge,small
+Paris 15e,64.0,3.0,2.0,6.0,1.0,True,646500.0,Alleray - Procession,medium
+Paris 16e,113.24,4.0,3.0,7.0,7.0,True,1690000.0,Porte de Saint-Cloud - Auteuil-Sud,large
+Paris 15e,90.0,4.0,2.0,7.0,1.0,False,751440.0,Vaugirard - Parc des Expositions,medium
+Paris 15e,39.85,3.0,1.0,2.0,1.0,True,430000.0,Saint-Lambert - Convention,small
+Paris 19e,55.0,3.0,2.0,2.0,1.0,True,550000.0,Danube,small
+Paris 12e,76.0,4.0,1.0,4.0,1.0,True,680000.0,Bel-Air - Sud,medium
+Paris 15e,110.26,5.0,4.0,10.0,2.0,True,1170000.0,Pasteur - Montparnasse,large
+Paris 20e,30.0,1.0,0.0,5.0,0.0,True,310000.0,Télégraphe - Pelleport - Saint-Fargeau,small
+Paris 9e,24.01,1.0,0.0,5.0,2.0,True,338000.0,Trudaine - Rochechouart,small
+Paris 11e,108.0,3.0,2.0,4.0,1.0,True,1320000.0,Bastille - Popincourt,large
+Paris 11e,70.0,3.0,1.0,5.0,3.0,True,705000.0,République - Saint-Ambroise,medium
+Paris 18e,58.5,3.0,2.0,5.0,4.0,True,496000.0,Simplon - Poissonniers,small
+Paris 20e,37.0,2.0,1.0,6.0,0.0,True,265000.0,Télégraphe - Pelleport - Saint-Fargeau,small
+Paris 20e,34.59,2.0,1.0,6.0,1.0,True,299990.0,Père Lachaise - Réunion,small
+Paris 13e,70.0,3.0,2.0,6.0,1.0,True,635000.0,Bièvre Sud - Tolbiac,medium
+Paris 15e,56.0,3.0,2.0,6.0,6.0,True,696000.0,Pasteur - Montparnasse,small
+Paris 1er,90.0,4.0,2.0,6.0,3.0,True,1675000.0,Châtelet - Les Halles,medium
+Paris 11e,35.0,2.0,2.0,3.0,3.0,True,400000.0,Belleville - Saint-Maur,small
+Paris 11e,35.0,2.0,1.0,4.0,3.0,True,400000.0,République - Saint-Ambroise,small
+Paris 16e,111.04,5.0,3.0,6.0,2.0,True,1350000.0,Porte de Saint-Cloud - Auteuil-Sud,large
+Paris 14e,47.0,3.0,2.0,6.0,2.0,True,510000.0,Pernety,small
+Paris 10e,118.0,6.0,4.0,6.0,3.0,False,1350000.0,Porte Saint-Martin - Paradis,large
+Paris 16e,45.0,2.0,1.0,10.0,3.0,True,745000.0,Muette-Nord - Trocadéro,small
+Paris 13e,20.0,1.0,1.0,6.0,0.0,True,175000.0,Olympiades - Choisy,small
+Paris 11e,127.0,5.0,3.0,7.0,3.0,True,1449000.0,Belleville - Saint-Maur,large
+Paris 20e,16.0,1.0,0.0,6.0,0.0,True,169000.0,Télégraphe - Pelleport - Saint-Fargeau,small
+Paris 16e,13.0,1.0,1.0,6.0,0.0,True,169000.0,Muette-Nord - Trocadéro,small
+Paris 16e,115.0,4.0,3.0,6.0,6.0,True,1740000.0,Dauphine,large
+Paris 9e,25.0,1.0,1.0,7.0,6.0,True,299000.0,Trudaine - Rochechouart,small
+Paris 15e,91.0,5.0,3.0,9.0,1.0,True,949000.0,Citroën - Boucicaut,medium
+Paris 16e,19.35,1.0,0.0,7.0,7.0,True,197000.0,Porte de Saint-Cloud - Auteuil-Sud,small
+Paris 18e,29.86,2.0,1.0,1.0,1.0,True,395000.0,Montmartre - Sacré Coeur - Abbesses,small
+Paris 19e,18.33,1.0,0.0,6.0,2.0,True,128800.0,Porte de la Villette,small
+Paris 14e,89.0,4.0,3.0,10.0,2.0,True,698000.0,Didot - Porte de Vanves,medium
+Paris 12e,90.0,4.0,2.0,8.0,6.0,True,850000.0,Aligre - Gare de Lyon,medium
+Paris 5e,69.21,3.0,2.0,5.0,2.0,True,1022000.0,Monge - Jussieu,medium
+Paris 20e,25.25,2.0,1.0,2.0,2.0,True,285000.0,Belleville,small
+Paris 16e,149.0,6.0,4.0,6.0,4.0,False,1410000.0,Passy - Maison de la Radio - Muette-Sud,large
+Paris 19e,95.0,4.0,3.0,7.0,2.0,True,720000.0,Danube,medium
+Paris 17e,46.8,3.0,2.0,4.0,1.0,True,519000.0,Batignolles - Cardinet,small
+Paris 11e,76.0,4.0,2.0,6.0,1.0,True,840000.0,Nation - Alexandre Dumas,medium
+Paris 12e,119.45,5.0,3.0,5.0,3.0,True,1250000.0,Aligre - Gare de Lyon,large
+Paris 19e,86.0,4.0,3.0,9.0,4.0,True,575000.0,Flandre - Aubervilliers,medium
+Paris 16e,118.0,5.0,3.0,9.0,8.0,True,1070000.0,Porte de Saint-Cloud - Auteuil-Sud,large
+Paris 13e,81.0,4.0,3.0,10.0,9.0,True,689000.0,Nationale - Deux Moulins,medium
+Paris 15e,82.0,4.0,3.0,9.0,4.0,True,825000.0,Violet - Commerce,medium
+Paris 9e,181.0,6.0,4.0,6.0,1.0,True,1990000.0,Lorette - Martyrs,large
+Paris 18e,25.11,3.0,2.0,5.0,0.0,True,234900.0,La Chapelle - Marx Dormoy,small
+Paris 18e,89.5,4.0,3.0,2.0,0.0,True,720000.0,La Chapelle - Marx Dormoy,medium
+Paris 9e,30.0,2.0,1.0,6.0,6.0,True,420000.0,Grands Boulevards,small
+Paris 17e,40.0,3.0,2.0,6.0,3.0,True,389000.0,La Fourche - Guy Moquet,small
+Paris 13e,62.0,3.0,2.0,3.0,2.0,True,730000.0,Croulebarbe,medium
+Paris 12e,47.0,2.0,1.0,20.0,14.0,True,469000.0,Jardin de Reuilly,small
+Paris 8e,43.0,3.0,2.0,6.0,4.0,True,525000.0,Europe,small
+Paris 10e,76.81,3.0,1.0,5.0,4.0,True,779000.0,Saint-Vincent de Paul - Lariboisière,medium
+Paris 19e,78.0,2.0,1.0,8.0,6.0,True,795000.0,Buttes Chaumont - Laumière - Manin,medium
+Paris 20e,89.0,4.0,3.0,6.0,1.0,True,595000.0,Gambetta,medium
+Paris 10e,98.0,5.0,3.0,5.0,4.0,True,999500.0,Château d'Eau - Lancry,medium
+Paris 18e,132.5,5.0,4.0,5.0,2.0,True,1195000.0,La Chapelle - Marx Dormoy,large
+Paris 8e,65.0,3.0,1.0,6.0,5.0,True,1200000.0,Triangle d'Or,medium
+Paris 14e,39.15,2.0,1.0,6.0,6.0,True,484000.0,Jean Moulin - Porte d'Orléans,small
+Paris 7e,33.94,1.0,0.0,4.0,4.0,True,690000.0,Champ de Mars,small
+Paris 11e,17.0,1.0,0.0,6.0,0.0,True,170000.0,Belleville - Saint-Maur,small
+Paris 18e,67.0,4.0,2.0,3.0,3.0,True,594000.0,La Chapelle - Marx Dormoy,medium
+Paris 15e,42.0,2.0,1.0,5.0,3.0,True,436000.0,Violet - Commerce,small
+Paris 10e,39.49,2.0,1.0,5.0,0.0,True,399000.0,Château d'Eau - Lancry,small
+Paris 7e,127.0,6.0,4.0,6.0,4.0,True,2160000.0,Champ de Mars,large
+Paris 13e,73.24,3.0,2.0,5.0,1.0,True,750000.0,Croulebarbe,medium
