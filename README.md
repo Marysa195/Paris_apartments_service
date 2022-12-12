@@ -11,7 +11,7 @@ uninformative and poorly filled features.
 
 More detailed analyzes of dataset features and ML-model building were
 carried out by me in the first pet project, which can be found at the attached
-link.
+link (https://github.com/Marysa195/ParisApartment_price_prediction_science).
 
 The data for this project was obtained by parsing the site www.bienici.com - a
 French site for finding real estate for buying / renting apartments in France.
