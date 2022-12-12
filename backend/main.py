@@ -64,7 +64,7 @@ def prediction(file: UploadFile = File(...)):
     Model prediction from data file
     param file: file with dataset without target we upload to make predictions
     """
-    result = pipeline_evaluate(config_path=CONFIG_PATH, data_path=file.file.readable())
+    result = pipeline_evaluate(config_path=CONFIG_PATH, data_path=file.file)
     assert isinstance(result, list), "Result does not match type list"
     # stub because we do not display all the predictions, otherwise it will hang
     return {"prediction": result[:5]}

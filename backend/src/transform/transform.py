@@ -17,6 +17,7 @@ def change_to_numerical(data: pd.DataFrame, numerical_columns: list) -> None:
      invalid parsing as NaN
     :param data: data frame
     :param numerical_columns: list with columns to to be converted
+    :return: changed Data Frame
     """
     data[numerical_columns] = data[numerical_columns].apply(
         pd.to_numeric, errors="coerce"
@@ -28,6 +29,7 @@ def fillna_with_mode(data: pd.DataFrame, fillna_with_mode_columns: list) -> None
     This function fills in NaN values in given columns with mode
     :param data: data frame
     :param fillna_with_mode_columns: list with columns to to be converted
+    return: changed Data Frame
     """
     for elem in fillna_with_mode_columns:
         data[elem] = data[elem].fillna(data[elem].mode()[0])
@@ -193,6 +195,5 @@ def pipeline_preprocess(
     # change category types
     dict_category = {key: "category" for key in data.select_dtypes(["object"]).columns}
     data = transform_types(data=data, change_type_columns=dict_category)
-
 
     return data
