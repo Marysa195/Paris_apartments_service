@@ -1,5 +1,7 @@
 ## Project description
 
+![](https://github.com/Marysa195/Paris_apartments_service/blob/main/demo/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F.gif)
+
 The goal of this pet-project is to create a web-service which will use
 ML-model that can predict the cost of an apartment in Paris, based on the
 information provided. 
